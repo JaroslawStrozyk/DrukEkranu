@@ -93,16 +93,16 @@ public class Okno extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(250, 345));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 204));
+        jPanel1.setBackground(new java.awt.Color(51, 51, 51));
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
-        jLData.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLData.setForeground(new java.awt.Color(102, 102, 102));
+        jLData.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLData.setForeground(new java.awt.Color(204, 204, 204));
         jLData.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLData.setText("2015-11-14");
 
-        jLCzas.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLCzas.setForeground(new java.awt.Color(102, 102, 102));
+        jLCzas.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLCzas.setForeground(new java.awt.Color(204, 204, 204));
         jLCzas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLCzas.setText("23:50:59");
 
@@ -117,17 +117,14 @@ public class Okno extends javax.swing.JFrame {
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLCzas, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+            .addComponent(jLCzas, javax.swing.GroupLayout.DEFAULT_SIZE, 20, Short.MAX_VALUE)
             .addComponent(jLData, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Opcje", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12))); // NOI18N
 
-        jPanel3.setBackground(new java.awt.Color(204, 255, 204));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Opcje", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12))); // NOI18N
 
-        jCheckBox1.setBackground(new java.awt.Color(204, 255, 204));
         jCheckBox1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox1.setText("Druk do pliku i Drukarkę");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -158,7 +155,6 @@ public class Okno extends javax.swing.JFrame {
         jLabel4.setText("jLabel4");
         jLabel4.setEnabled(false);
 
-        jCheckBox2.setBackground(new java.awt.Color(204, 255, 204));
         jCheckBox2.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jCheckBox2.setText("Drukowanie automatyczne");
         jCheckBox2.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -204,7 +200,6 @@ public class Okno extends javax.swing.JFrame {
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
-        jPanel4.setBackground(new java.awt.Color(204, 255, 204));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Cel", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 12))); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
